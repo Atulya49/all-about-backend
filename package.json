@@ -2,9 +2,10 @@
   "name": "backend-hc",
   "version": "1.0.0",
   "description": "full backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -16,5 +17,8 @@
     "css"
   ],
   "author": "beast",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
